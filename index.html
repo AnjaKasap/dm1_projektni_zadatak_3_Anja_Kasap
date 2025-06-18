@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Video projekt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfcf9;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffc107;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #aa4a44;
+        }
+
+        video {
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+            border: 3px solid #ccc;
+            border-radius: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            margin-top: 20px;
+            border: none;
+        }
+
+        p {
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Početna</a>
+        <a href="o_meni.html">O meni</a>
+        <a href="vjezbe.html">Vježbe</a>
+        <a href="video.html">Video</a>
+    </nav>
+
+    <div class="container">
+        <h1>Moj video projekt</h1>
+
+        <!-- VIDEO OPCIJA 1: Ako je video hostan na GitHubu ili lokalno -->
+        <video controls>
+            <source src="projektni zadatak video.mp4" type="video/mp4">
+            Vaš preglednik ne podržava video tag.
+        </video>
+
+        <!-- ILI OPCIJA 2: Ako koristite YouTube -->
+        <!--
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        -->
+
+        <p>
+            U ovom video projektu koristila sam tehnike rezanja i spajanja scena u programu Shotcut.
+            Dodala sam prijelaze (fade in/out), kolor korekciju za toplije tonove i titlove za bolju razumljivost.
+            Video je eksportiran u .mp4 formatu.
+        </p>
+    </div>
+</body>
+</html>
